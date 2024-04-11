@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма заявки</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Заполните форму заявки</h2>
+        <form action="submit.php" method="post">
+            <input type="text" name="name" placeholder="Имя" required><br>
+            <input type="text" name="surname" placeholder="Фамилия" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <input type="text" name="tel" placeholder="Телефон" required><br>
+            <textarea name="message" placeholder="Сообщение" rows="4" required></textarea><br>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+
+</html>
